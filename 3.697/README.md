@@ -1,4 +1,6 @@
 # README
+![Logo](https://evolution.genetics.washington.edu/phylip.gif)
+
 The main page can be found [here](https://evolution.genetics.washington.edu/phylip.html).
 
 ## Building the container for Bridges (or similar)
