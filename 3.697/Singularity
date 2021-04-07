@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: quay.io/biocontainers/phylip:3.697--h470a237_0
+
+%labels
+    AUTHOR icaoberg
+    EMAIL icaoberg@psc.edu
+    WEBSITE https://gitlab.psc.edu/icaoberg/singularity-phylip-suite
+    VERSION 3.697
+
+%post
+   rm /etc/resolv.conf
+
+####################################################################################
