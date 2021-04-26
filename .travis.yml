@@ -53,4 +53,5 @@ install:
   - # override
 
 script:
-  - cd 1.0.0 && bash ./build.sh
+  - cd 3.697 && bash ./build.sh
+  - tree .
