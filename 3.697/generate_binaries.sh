@@ -42,14 +42,10 @@ retree)
 cat << EOF > template
 #!/bin/bash
 
-if [ ! \$(command -v singularity) ]; then
-	module load singularity
-fi
-
 VERSION=3.697
 PACKAGE=phylip-suite
 TOOL=TOOL_NAME
-DIRECTORY=/opt/packages/\$PACKAGE/\$VERSION
+DIRECTORY=$(dirname $0)
 
 PERSISTENT_FILE_STORAGE=/ocean
 if [ -d \$PERSISTENT_FILE_STORAGE ]; then
