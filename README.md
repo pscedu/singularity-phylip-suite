@@ -30,7 +30,7 @@ Copy the
 
 to `/opt/packages/phylip-suite/3.967`.
 
-Copy the file `modulefile.lua` to `/opt/modules/phylip-suite` as `3.967.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/phylip-suite` as `3.967.lua`.
 
 ## Examples
 If there are any examples associated with this package, i.e. an `examples` folder exists in this repository, copy those files to `/opt/packages/examples`.
