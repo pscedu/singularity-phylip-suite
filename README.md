@@ -7,7 +7,7 @@
 # singularity-phylip-suite
 ![Logo](https://evolution.genetics.washington.edu/phylip.gif)
 
-Singularity recipe for [Phylip Suite](https://evolution.genetics.washington.edu/phylip.html).
+Singularity recipe for [phylip-suite](https://evolution.genetics.washington.edu/phylip.html).
 
 ## Building the container for Bridges (or similar)
 There is no need to build a container, because an image is already available from the Galaxy project, hence all you need to do is run
