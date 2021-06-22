@@ -14,5 +14,6 @@ if [ -f input.file ]; then
 fi
 
 if [ -f output ]; then
+        cat output
 	mv output protdist.output
 fi
