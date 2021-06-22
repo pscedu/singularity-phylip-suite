@@ -1,7 +1,13 @@
-# README
+![Status](https://github.com/pscedu/singularity-phylip-suite/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-phylip-suite)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-phylip-suite)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-phylip-suite)
+![License](https://img.shields.io/github/license/pscedu/singularity-phylip-suite)
+
+# singularity-phylip-suite
 ![Logo](https://evolution.genetics.washington.edu/phylip.gif)
 
-The main page can be found [here](https://evolution.genetics.washington.edu/phylip.html).
+Singularity recipe for [Phylip Suite](https://evolution.genetics.washington.edu/phylip.html).
 
 ## Building the container for Bridges (or similar)
 There is no need to build a container, because an image is already available from the Galaxy project, hence all you need to do is run
