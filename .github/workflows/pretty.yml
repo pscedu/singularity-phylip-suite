@@ -1,0 +1,24 @@
+name: Ready for deployment
+on: [push, pull_request]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        singularity_version:
+          - '3.7.3'
+    container:
+      image: quay.io/singularity/singularity:v${{ matrix.singularity_version }}
+      options: --privileged
+    steps:
+    - name: Check if README.md exists
+      run: |
+      if [ -f README.md ]; then
+        echo "File README.md exists in repository."
+        exit 0
+      else
+        echo "File README.md does exist in repository."
+        exit 1
+      fi
