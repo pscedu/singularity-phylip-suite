@@ -35,6 +35,13 @@ Run the script `rbuild.sh` to build image remotely.
 bash ./rbuild.sh
 ```
 
+## To run tests
+To run the available tests, run the command
+
+```
+bash ./test.sh
+```
+
 ---
 Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
