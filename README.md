@@ -1,4 +1,5 @@
 ![Status](https://github.com/pscedu/singularity-phylip-suite/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-phylip-suite/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-phylip-suite)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-phylip-suite)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-phylip-suite)
